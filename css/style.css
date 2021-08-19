@@ -79,3 +79,9 @@ form h1{
 input.btn-primary{
     width: 100px;
 }
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: revert;
+    line-height: inherit;
+}

@@ -11,25 +11,38 @@
 </head>
 
 <body>
-    <div>
+    <div class="auth-inner">
         <form class="register" onsubmit="validarInputs(event)">
             <h1>Cadastro</h1> <br>
-            <div> <br>
-                <input type="text" name="username" id="username" placeholder="Digite seu nome de usuário" required />
+
+            <div class=""> <br>
+                <label for="">Nome Completo:</label>
+                <input type="text" name="username" id="username" placeholder="Digite seu nome completo" required />
             </div>
+
             <div> <br>
+                <label for="">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Digite seu email" required />
+            </div> 
+    
+            <div> <br>
+                <label for="">Senha:</label>
                 <input type="password" name="password" id="password" placeholder="Digite sua senha" required />
             </div>
+        
             <div> <br>
+                <label for="">Confirme sua senha:</label>
                 <input type="password" name="passConfirmation" id="passConfirmation" placeholder="Confirme sua senha" required />
             </div>
+
             <div> <br>
                 <input type="submit" class="btn btn-primary" name="botao" value="Cadastre-se" />
             </div>
         </form>
-        <script src="../js/script.js"></script>
     </div>
-    <p></p>
+
+    <script src="../js/script.js"></script>
+
 </body>
 
 </html>
