@@ -3,16 +3,15 @@
 body{
     background-color: #bed5fc;
 }
+
 .color{
     background-color:	#FFFFFF;
-    max-width: 500px;
-    width: 70%;
+    max-width: 450px;
     padding: 50px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 form{
@@ -24,6 +23,7 @@ form{
 form h1{
     text-align: center;
 }
+
 form input[type=text], .botao,
 form input[type=password]{
     width: 100%;
@@ -32,11 +32,13 @@ form input[type=password]{
     padding-left: 10px;
     margin: 10px 0;
 }
+
 .pass-change{
     width: 100%;
     align-items: center;
     margin-left: auto;
 }
+
 button{
     width: 410px;
     display: flex;
@@ -52,10 +54,12 @@ form input{
     background-color: #FAFAFA;
     border-radius: 5pt;
 }
+
 form a{
     text-decoration: none;
     color: #425d70;
 }
+
 form ahover {
     color: #425d70;
 }
@@ -64,6 +68,7 @@ label h1{
     color: #00376b;
     font-size: 25px;
 }
+
 form h1{
     font-size: 50px;
 }
@@ -73,15 +78,28 @@ form h1{
     width: 103%;
     text-align: center;
 }
+
 .register {
     padding: 20px;
 }
 input.btn-primary{
     width: 100px;
 }
+
 button, input, optgroup, select, textarea {
     margin: 0;
     font-family: inherit;
     font-size: revert;
     line-height: inherit;
+}
+
+.forgot-password{
+    text-align: right;
+    font-size: 13px;
+}
+.color p{
+    margin-left: 0px;
+}
+a{
+    margin-left: 0px;
 }
