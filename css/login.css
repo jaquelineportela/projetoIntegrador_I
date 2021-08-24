@@ -19,7 +19,9 @@ form{
     border: 1px solid #bed5fc;
     box-shadow:rgba(50, 50, 50, 0.1);
 }
-
+#email{
+    background: #FAFAFA;
+}
 form h1{
     text-align: center;
 }
