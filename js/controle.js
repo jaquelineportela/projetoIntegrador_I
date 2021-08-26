@@ -8,9 +8,9 @@ const inputTransactionAmount = document.querySelector('amount')
 
 const dummyTransactions = [
     { id: 1, name:'Produto1', amount: -20},
-    { id: 2, name:'salário2', amount: 300},
+    { id: 2, name:'Salário2', amount: 300},
     { id: 3, name:'Produto3', amount: -10},
-    { id: 4, name:'produto4', amount: 150},
+    { id: 4, name:'Produto4', amount: 150},
 ]
 
 const addTransactionIntoDOM = transaction => {
