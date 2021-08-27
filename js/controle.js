@@ -6,6 +6,7 @@ const form = document.querySelector('#form')
 const inputTransactionName = document.querySelector('#text')
 const inputTransactionAmount = document.querySelector('amount')
 
+<<<<<<< HEAD
 
 const localStorageTransactions =  JSON.parce(localStorage
 .getItem(`transactions`))
@@ -24,6 +25,18 @@ const removeTransaction = ID => {
 const addTransactionIntoDOM = ({ amount, name , id })=> {
     const operator = amount < 0 ? '-' : '+'
     const CSSClass = amount < 0 ? 'minus' : 'plus'
+=======
+const dummyTransactions = [
+    { id: 1, name:'Produto1', amount: -20},
+    { id: 2, name:'Salário2', amount: 300},
+    { id: 3, name:'Produto3', amount: -10},
+    { id: 4, name:'Produto4', amount: 150},
+]
+
+const addTransactionIntoDOM = transaction => {
+    const operator = transaction.amount < 0 ? '-' : '+'
+    const CSSClass = transaction.amount < 0 ? 'minus' : 'plus'
+>>>>>>> b1dfc7526afb0be250f7280471c8cef730ad89f1
     const amountWithoutOperator = Math.abs(transaction.amount)
     const li = document.createElement('li')
 
